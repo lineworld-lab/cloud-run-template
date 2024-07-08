@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+
+        cloud-run-template:
+                build: .
+                container_name: cloud-run-template
+                ports:
+                        - "8080:8080"
